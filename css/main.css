@@ -1,0 +1,8 @@
+#app ul{
+  list-style: none; /*点を非表示*/
+}
+
+/*liの直下の階層のspanのclass doneを指定*/
+#app li > span.done {
+  text-decoration: line-through; /*取り消し線*/
+}
